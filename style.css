@@ -1,40 +1,163 @@
-h1{color: midnightblue;}
-			h1.red-header {color: blueviolet;text-align:center;}
-			p {font-size: 50px;text-align:center;}
-			li {font-size: 30px;}
-			li {font-weight: 700;text-align:center;}
-			h2{color: brown;font-size: 80px;text-align:center;}
-			li.first{color: darkslategrey;text-align:center;}
-            img.Gandalf{width: 750px;}
-            img.Gandalf{border-radius: 30px;text-align:center;}
-            tr.tabela{background-color: aquamarine;text-align:center;}
-			table{font-size: 30px;text-align:center;}
-			dl{font-size: 30px;text-align:center;}
-			h3{font-size: 30px;text-align:center;}
-			h1.h1bronie{text-align: center;}
-			table{margin: auto;text-align:center;}
-			h1{text-align:center;}
-			ol{list-style-position: inside;}
-			ul{list-style-position: inside;}
-			img{margin: auto;margin-left: auto;margin-right: auto;width: 50%;display: block;}
-			body{background: linear-gradient(yellow 50%,blue 50%);}
-            div{background-color:aquamarine;}
-			div.bronie{background-color: rgb(26, 175, 201);}
-			div.zalety{background-color: yellow;}
-			div.przygoda{background-color: rgb(red, green, blue);}
-			img.legolas{width: 300px;}
-			section{background-color: firebrick;font-size: large;}
-			button.przycisk{background-color: green;font-size: 100px;color: hotpink;text-align:
-				 center;border-radius: 30px;margin:
-				 auto;margin-left: auto;margin-right: auto;width:
-				  50%;display: block;border: none;cursor:pointer;padding: auto;
-				  
-				}
-		a{text-decoration: none;}
-		section.jeden{background-color: rgb(226, 12, 226);}
-		button.legolas1{background-color: green;font-size: 100px;color: coral;border-radius: 30px;
-		margin: 0 auto;width: 50%;display: block;
-		}
-		h6{text-align: center;font-size: 50px;}
+h1 {
+	color: midnightblue;
+}
 
-		
+h1.red-header {
+	color: blueviolet;
+	text-align: center;
+}
+
+p {
+	font-size: 50px;
+	text-align: center;
+}
+
+li {
+	font-size: 30px;
+}
+
+li {
+	font-weight: 700;
+	text-align: center;
+}
+
+h2 {
+	color: brown;
+	font-size: 80px;
+	text-align: center;
+}
+
+li.first {
+	color: darkslategrey;
+	text-align: center;
+}
+
+img.Gandalf {
+	width: 750px;
+}
+
+img.Gandalf {
+	border-radius: 30px;
+	text-align: center;
+}
+
+tr.tabela {
+	background-color: aquamarine;
+	text-align: center;
+}
+
+table {
+	font-size: 30px;
+	text-align: center;
+}
+
+dl {
+	font-size: 30px;
+	text-align: center;
+}
+
+h3 {
+	font-size: 30px;
+	text-align: center;
+}
+
+h1.h1bronie {
+	text-align: center;
+}
+
+table {
+	margin: auto;
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
+}
+
+ol {
+	list-style-position: inside;
+}
+
+ul {
+	list-style-position: inside;
+}
+
+img {
+	margin: auto;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	display: block;
+}
+
+body {
+	background: linear-gradient(yellow 50%, blue 50%);
+}
+
+div {
+	background-color: aquamarine;
+}
+
+div.bronie {
+	background-color: rgb(26, 175, 201);
+}
+
+div.zalety {
+	background-color: yellow;
+}
+
+div.przygoda {
+	background-color: rgb(red, green, blue);
+}
+
+img.legolas {
+	width: 300px;
+}
+
+section {
+	background-color: firebrick;
+	font-size: large;
+}
+
+button.przycisk {
+	background-color: green;
+	font-size: 100px;
+	color: hotpink;
+	text-align:
+		center;
+	border-radius: 30px;
+	margin:
+		auto;
+	margin-left: auto;
+	margin-right: auto;
+	width:
+		50%;
+	display: block;
+	border: none;
+	cursor: pointer;
+	padding: auto;
+
+}
+
+a {
+	text-decoration: none;
+}
+
+section.jeden {
+	background-color: rgb(226, 12, 226);
+}
+
+button.legolas1 {
+	background-color: green;
+	font-size: 100px;
+	color: coral;
+	border-radius: 30px;
+	margin: 0 auto;
+	width: 50%;
+	display: block;
+}
+
+h6 {
+	text-align: center;
+	font-size: 50px;
+}
