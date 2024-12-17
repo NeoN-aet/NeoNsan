@@ -62,3 +62,7 @@ p {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow',
         Arial, sans-serif;
 }
+img{filter: drop-shadow(2px 2px 20px green );}
+img{box-shadow: 2px 2px 20px yellow;}
+body{background-color: bisque;}
+div.boxy{background-color: bisque;}
