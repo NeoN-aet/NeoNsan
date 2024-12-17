@@ -5,10 +5,12 @@ h1.strona {
         Tahoma, sans-serif;
     font-size: 50px;
 }
+
 div.boxy {
     display: flex;
     background-color: black;
 }
+
 div.boxy {
     display: flex;
     background-color: rgb(253, 253, 253);
@@ -57,15 +59,49 @@ img {
     width: 300px;
     border-radius: 15%;
 }
+
 p {
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow',
         Arial, sans-serif;
 }
-img{filter: drop-shadow(2px 2px 20px green );}
-img{box-shadow: 2px 2px 20px yellow;}
-body{background-color: bisque;}
-div.boxy{background-color: bisque;}
-i{font-size: 30px;}
-footer{position: relative;height: 100px;}
-div.icony{position: absolute;right: 30px;bottom: 10px;display: flex;gap: 20px;filter: drop-shadow(2px 2px 20px  green);}
+
+img:hover {
+    filter: drop-shadow(2px 2px 20px green);
+}
+
+img:hover {
+    box-shadow: 2px 2px 20px yellow;
+}
+
+body {
+    background-color: bisque;
+}
+
+div.boxy {
+    background-color: bisque;
+}
+
+i {
+    font-size: 30px;
+    color: black;
+}
+i:hover{filter: drop-shadow(2px 2px 20px blue   );}
+
+footer {
+    position: relative;
+    height: 100px;
+    background-color: bisque
+}
+
+div.icony {
+    position: absolute;
+    right: 30px;
+    bottom: 900px;
+    display: flex;
+    gap: 20px;
+    filter: drop-shadow(2px 2px 20px green);
+    
+}
+html.przesuwak{text-align: center;}
+button{background-color: aquamarine;border-radius: 10px;font-size: 20px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
