@@ -68,10 +68,36 @@ div.mycontainer div {
           
 
 			</ul>
-			
-			
-			
-			
+
+
+
+      licznik przesuwak
+      <div class="container">
+        <label for="range">Range:</label>
+        <input type="range" id="range" min="0" max="100" value="50">
+        <input type="number" id="number" min="0" max="100" value="50">
+    </div>
+
+    <script>
+        const rangeInput = document.getElementById('range');
+        const numberInput = document.getElementById('number');
+
+        // Update number input when range slider moves
+        rangeInput.addEventListener('input', () => {
+            numberInput.value = rangeInput.value;
+        });
+
+        // Update range slider when number input changes
+        numberInput.addEventListener('input', () => {
+            // Ensure the number stays within range
+            if (numberInput.value < rangeInput.min) {
+                numberInput.value = rangeInput.min;
+            } else if (numberInput.value > rangeInput.max) {
+                numberInput.value = rangeInput.max;
+            }
+            rangeInput.value = numberInput.value;
+        });
+    </script>
 			</nav>
 
 

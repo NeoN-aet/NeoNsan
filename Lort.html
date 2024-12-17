@@ -5,9 +5,9 @@
 	<title>Gandalf</title>
 	<meta charset="UTF-8" />
 	<link rel="stylesheet" href="nowe style.css" />
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
-	integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-	 crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+		integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -18,8 +18,7 @@
 				<img src="panda111.jpg" alt="pand1">
 			</a>
 			<p>Title</p>
-			<html class="przesuwak" ><input type="range"></html>
-			<button>Wyślij</button>
+
 
 
 		</div>
@@ -29,10 +28,8 @@
 				<img src="pandas22.webp" alt="panda2">
 			</a>
 			<p>Title</p>
-			
-			<html class="przesuwak" ><input type="range"></html>
-			<button>Wyślij</button>
-			
+
+
 
 
 		</div>
@@ -41,24 +38,68 @@
 				<img src="panda111.jpg" alt="panda3">
 			</a>
 			<p>Title</p>
-			<html class="przesuwak" ><input type="range"></html>
-			
-			<button >Wyślij</button>
+
+
 
 		</div>
 	</div>
+<div class="przesuwak" >
+	<div class="container">
+        <label for="range">Donation us:</label>
+        <input type="range" id="range" min="0" max="100" value="50">
+        <input type="number" id="number" min="0" max="100" value="50">
+    </div>
+
+    <script>
+        const rangeInput = document.getElementById('range');
+        const numberInput = document.getElementById('number');
+
+        // Update number input when range slider moves
+        rangeInput.addEventListener('input', () => {
+            numberInput.value = rangeInput.value;
+        });
+
+        // Update range slider when number input changes
+        numberInput.addEventListener('input', () => {
+            // Ensure the number stays within range
+            if (numberInput.value < rangeInput.min) {
+                numberInput.value = rangeInput.min;
+            } else if (numberInput.value > rangeInput.max) {
+                numberInput.value = rangeInput.max;
+            }
+            rangeInput.value = numberInput.value;
+        });
+    </script>
+	<button>Send</button>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
 
 
 	<footer>
 
-<div class="icony" >
-    <a href="https://www.tiktok.com/@shoxen777">
-	<i class="fa-brands fa-tiktok"></i>
-</a>	
-<a href="discord.com/users/702663182560526467">
-	<i class="fa-brands fa-discord"></i>
-</a>
-</div>
+		<div class="icony">
+			<a href="https://www.tiktok.com/@shoxen777">
+				<i class="fa-brands fa-tiktok"></i>
+			</a>
+			<a href="discord.com/users/702663182560526467">
+				<i class="fa-brands fa-discord"></i>
+			</a>
+		</div>
+
 
 
 
