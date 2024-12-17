@@ -66,3 +66,6 @@ img{filter: drop-shadow(2px 2px 20px green );}
 img{box-shadow: 2px 2px 20px yellow;}
 body{background-color: bisque;}
 div.boxy{background-color: bisque;}
+i{font-size: 30px;}
+footer{position: relative;height: 100px;}
+div.icony{position: absolute;right: 30px;bottom: 10px;display: flex;gap: 20px;filter: drop-shadow(2px 2px 20px  green);}
