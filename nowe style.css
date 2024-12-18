@@ -119,7 +119,12 @@ button {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-button:hover{box-shadow: 2px 2px 20px green;filter: drop-shadow(2px 2px 20px green);background-color: green;font-size: 25px;}
+button:hover {
+    box-shadow: 2px 2px 20px green;
+    filter: drop-shadow(2px 2px 20px green);
+    background-color: green;
+    font-size: 25px;
+}
 
 div.przesuwak {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -148,11 +153,16 @@ img.germany:hover {
     filter: drop-shadow(2px 2px 20px rgb(5, 0, 0));
     box-shadow: 2px 2px 20px rgb(2, 0, 0);
 }
+
 img.hungary:hover {
     filter: drop-shadow(2px 2px 20px rgb(228, 6, 143));
     box-shadow: 2px 2px 20px rgb(228, 6, 143);
 }
-div.language{text-align: center;margin-top: 20px; margin-bottom: 10px;
+
+div.language {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
 
 }
 
