@@ -4,6 +4,7 @@ h1.strona {
     font-family: Verdana,
         Tahoma, sans-serif;
     font-size: 50px;
+    filter: drop-shadow(2px 2px 20px black);
 }
 
 div.boxy {
@@ -86,23 +87,81 @@ i {
     font-size: 30px;
     color: black;
 }
-i:hover{filter: drop-shadow(2px 2px 20px blue   );}
+
+i:hover {
+    filter: drop-shadow(2px 2px 20px blue);
+}
 
 footer {
     position: relative;
-    height: 100px;
+    height: 20px;
     background-color: bisque
 }
 
 div.icony {
     position: absolute;
     right: 30px;
-    bottom: 900px;
+    bottom: 1500px;
     display: flex;
     gap: 20px;
     filter: drop-shadow(2px 2px 20px green);
-    
+
 }
-html.przesuwak{text-align: center;}
-button{background-color: rgb(238, 105, 65);border-radius: 10px;font-size: 20px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
-div.przesuwak{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-size: 30px;display: flex;gap: 10px ;justify-content: center;}
+
+html.przesuwak {
+    text-align: center;
+}
+
+button {
+    background-color: rgb(238, 105, 65);
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+button:hover{box-shadow: 2px 2px 20px green;filter: drop-shadow(2px 2px 20px green);background-color: green;font-size: 25px;}
+
+div.przesuwak {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+img.dwa:hover {
+    filter: drop-shadow(2px 2px 20px green);
+    box-shadow: 2px 2px 20px green;
+}
+
+img.trzy:hover {
+    filter: drop-shadow(2px 2px 20px blue);
+    box-shadow: 2px 2px 20px blue;
+}
+
+img.polish:hover {
+    filter: drop-shadow(2px 2px 20px rgb(245, 2, 2));
+    box-shadow: 2px 2px 20px rgb(243, 1, 1);
+}
+
+img.germany:hover {
+    filter: drop-shadow(2px 2px 20px rgb(5, 0, 0));
+    box-shadow: 2px 2px 20px rgb(2, 0, 0);
+}
+img.hungary:hover {
+    filter: drop-shadow(2px 2px 20px rgb(228, 6, 143));
+    box-shadow: 2px 2px 20px rgb(228, 6, 143);
+}
+div.language{text-align: center;margin-top: 20px; margin-bottom: 10px;
+
+}
+
+
+h1.kraje {
+    text-align: center;
+    margin-top: 100px;
+    font-family: Verdana,
+        Tahoma, sans-serif;
+    font-size: 50px;
+    filter: drop-shadow(2px 2px 20px black);
+}
